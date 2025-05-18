@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+    font-family: Sk Modernist;
+    src: url("/assets/Sk-Modernist-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Rostov;
+    src: url("/assets/Rostov.ttf") format("truetype");
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #131313;
+}
+
+.hero-section {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: red;
+    height: 126vh;
+    z-index: -5 !important;
+}
+
+.title {
+    color: #000;
+    font-size: 210px;
+    font-family: 'Sk Modernist';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -50px;
+    text-align: center;
+    letter-spacing: -.01em;
+    line-height: .75;
+    z-index: 2 !important;
+}
+
+.background-img {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    zoom: 1.129;
+    z-index: -10;
+}
+
+.background-img-container {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    transform-origin: center center 0px;
+    opacity: 0.25;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    box-sizing: content-box;
+}
+
+.background-root-div {
+    left: -263px;
+    top: 0px;
+    width: 1727px;
+    zoom: 1.129;
+    position: absolute;
+    box-sizing: border-box;
+    display: table;
+    z-index: -10;
+}
+
+.hero-img1 {
+    position: absolute;
+    left: 174px;
+    top: 480px;
+    width: 238px;
+    pointer-events: none;
+    zoom: 1.129;
+    z-index: -2;
+    transform: rotate(-14deg);
+    filter: contrast(110%) saturate(150%);
+    image-rendering: pixelated;
+}
+
+.hero-img2 {
+    position: absolute;
+    left: 901px;
+    top: 400px;
+    width: 300px;
+    pointer-events: none;
+    zoom: 1.129;
+    z-index: 1;
+}
+
+.hero-img3 {
+    position: absolute;
+    left: 113px;
+    top: 145px;
+    width: 241px;
+    pointer-events: none;
+    zoom: 1.129;
+    z-index: -2;
+}
+
+.hero-img4 {
+    position: absolute;
+    left: 734px;
+    top: 80px;
+    width: 239px;
+    pointer-events: none;
+    zoom: 1.129;
+    z-index: -2;
+}
+
+.left-rose {
+    position: absolute;
+    transform: rotate(344deg);
+    left: -356px;
+    top: -171px;
+    width: 833px;
+    zoom: 1.129;
+}
+
+.right-rose {
+    position: absolute;
+    left: 924px;
+    top: -10px;
+    width: 428px;
+    zoom: 1.129;
+}
+
+.throne {
+    position: absolute;
+    transform: rotate(91deg);
+    left: 280px;
+    top: 320px;
+    width: 640px;
+    zoom: 1.129;
+}
+
+.artistic-rose {
+    width: 1200px;
+    zoom: 1.129;
+    margin-top: 35px;
+}
+
+.chinese-caligraphy {
+    font-size: 350px;
+    font-family: 'Sk Modernist';
+    color: #910404;
+    text-align: center;
+    position: relative;
+    margin-top: -825px;
+}
+
+.header-textbox h2 {
+    color: #efefef;
+    font-size: 100px;
+    font-family: 'Rostov',Arial,sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+#uppertext-prehistoric {
+    position: relative;
+    top: 225px;
+    left: 120px;
+    width: 801px;
+    height: 100px;
+    zoom: 1.129;
+}
+
+#lowertext-prehistoric {
+    position: relative;
+    text-align: right;
+    top: 215px;
+    left: 233px;
+    width: 850px;
+    height: 100px;
+    zoom: 1.129;
+}
+
+.cave-painting {
+    position: relative;
+    left: 120px;
+    top: 225px;
+    width: 360px;
+    zoom: 1.129;
+}
+
+.cave-painting-text {
+    position: relative;
+    left: 680px;
+    width: 541px;
+    height: 72px;
+    text-align: center;
+    color: #efefef;
+    font-size: 13px;
+    font-family: 'Inter';
+    line-height: 1.5;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.world-map {
+    position: relative;
+    opacity: 0.75;
+    top: 50px;
+    left: 420px;
+    width: 660px;
+    z-index: -1;
+    zoom: 1.135;
+}
+
+.textbox-acient {
+    color: #efefef;
+    font-size: 24px;
+    font-family: 'Rostov',Arial,sans-serif;
+    line-height: 1.1;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+#uppertext-acient {
+    position: relative;
+    text-align: left;
+    top: 180px;
+    left: 180px;
+    width: 509px;
+    height: 119px;
+    zoom: 1.135;
+}
+
+#lowertext-acient {
+    position: relative;
+    text-align: left;
+    top: 100px;
+    left: 120px;
+    zoom: 1.135;
+}
+
+.garden-of-babylon {
+    position: relative;
+    object-fit: cover;
+    top: 175px;
+    left: 120px;
+    width: 560px;
+    height: 300px;
+    zoom: 1.135;
+}
+
+.p-textbox-acient p{
+    color: #efefef;
+    font-size: 13px;
+    font-family: 'Inter';
+    line-height: 1.5;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+
+}
+
+.p-uppertext-acient {
+    position: relative;
+    width: 538px;
+    left: 720px;
+    top: -230px;
+}
+
+.p-midtext-acient {
+    position: relative;
+    width: 538px;
+    left: 815px;
+    top: -240px;
+}
+
+.p-lowertext-acient {
+    position: relative;
+    width: 458px;
+    left: 815px;
+    top: 5px;
+}
+
+.battles {
+    height: 1080px;
+    overflow: hidden;
+
+}
+
+.textbox-battles {
+    color: #efefef;
+    font-size: 24px;
+    font-family: 'Rostov',Arial,sans-serif;
+    line-height: 1.1;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+#uppertext-battles {
+    position: relative;
+    text-align: left;
+    top: 130px;
+    left: 180px;
+    width: 509px;
+    height: 119px;
+    zoom: 1.135;
+}
+
+#lowertext-battles {
+    position: relative;
+    text-align: left;
+    top: 50px;
+    left: 120px;
+    zoom: 1.135;
+}
+
+.p-textbox-battles p {
+    color: #efefef;
+    font-size: 12px;
+    font-family: 'Inter';
+    line-height: 1.5;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    position: relative;
+    top: 80px;
+    left: 540px;
+    width: 459px;
+    height: 162px;
+    zoom: 1.135;
+}
+
+.bottom-water {
+    position: relative;
+    top: -60px;
+    left: 0px;
+    width: 1311px;
+    zoom: 1.135;
+    z-index: -1;
+    transform: translateX(-60.64px);
+}
+
+.mid-water {
+    position: relative;
+    top: -15px;
+    width: 1411px;
+    zoom: 1.135;
+    z-index: -3;
+    transform: translateX(-26.64px);
+}
+
+.upper-water {
+    position: relative;
+    top: 75px;
+    width: 1311px;
+    zoom: 1.135;
+    z-index: -3;
+    transform: translateX(-97.64px);
+}
+
+.bottom-boat {
+    position: relative;
+    top: -905px;
+    left: -57px;
+    width: 657px;
+    zoom: 1.136;
+    z-index: -1;
+}
+
+.upper-boat {
+    position: relative;
+    left: -240px;
+    top: -760px;
+    width: 591px;
+    zoom: 1.136;
+    z-index: -2;
+}
+
+.jagged-bottom {
+    position: relative;
+    top: -855px;
+    width: 1200px;
+    left: 0px;
+    zoom: 1.136;
+}
+
+
+
+
+

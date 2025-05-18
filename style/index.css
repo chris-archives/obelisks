@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kalam:wght@300;400;700&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.flashlight-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle 200px at 50% 50%, 
+    transparent 0%, 
+    rgba(0, 0, 0, 0.95) 180px
+  );
+  filter: blur(12px);
+  pointer-events: none;
+  transition: background 0.1s ease-out;
+}
+
+.text-box h1,
+p,
+button {
+  z-index: 50;
+  position: absolute;
+}
+
+.text-box h1 {
+  font-family: "Kalam";
+  font-size: 70px !important;
+  color: #fff;
+  top: 26vh;
+  left: 8vw;
+}
+
+.text-box p {
+  font-family: "Inter";
+  font-size: 20px;
+  color: #fff;
+  top: 40vh;
+  left: 8vw;
+  width: 45vw;
+  line-height: 1.4;
+}
+
+button {
+  font-family: "Inter";
+  display: inline-block;
+  color: white;
+  border: 2px solid transparent;
+  background: rgb(255, 255, 255);
+  padding: 12px 40px;
+  line-height: 1.4;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 30px;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  top: 65vh;
+  left: 8vw;
+}
+
+button a {
+  color: #000;
+}
+
+button:hover {
+  transform: scale(1.25);
+}
